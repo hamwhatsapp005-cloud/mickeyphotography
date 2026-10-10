@@ -19,7 +19,7 @@ html { scroll-behavior:smooth; }
 body {
   min-height:100vh;
   color:var(--paper);
-  background:radial-gradient(circle at top, rgba(217,180,107,.18), transparent 25%), linear-gradient(120deg,rgba(7,7,9,.96),rgba(12,12,17,.82)),url("background.jpg") center / cover fixed;
+  background:radial-gradient(circle at top, rgba(217,180,107,.18), transparent 25%), linear-gradient(120deg,rgba(7,7,9,.96),rgba(12,12,17,.82)),url("site-background.jpg") center / cover fixed;
   font-family:"DM Sans",Arial,sans-serif;
   line-height:1.6;
 }
@@ -114,7 +114,7 @@ h3 {
   place-items:center;
   text-align:center;
   padding:80px 20px;
-  background:linear-gradient(90deg,rgba(0,0,0,.76),rgba(0,0,0,.34)),url("background.jpg") center / cover;
+  background:linear-gradient(90deg,rgba(0,0,0,.76),rgba(0,0,0,.34)),url("site-background.jpg") center / cover;
 }
 
 .hero::before {
@@ -208,7 +208,7 @@ h3 {
   padding:72px clamp(28px,8vw,110px);
   border:1px solid var(--line);
   border-radius:16px;
-  background:linear-gradient(rgba(10,10,12,.78),rgba(10,10,12,.9)),url("background.jpg") center / cover;
+  background:linear-gradient(rgba(10,10,12,.78),rgba(10,10,12,.9)),url("site-background.jpg") center / cover;
   box-shadow:0 18px 55px rgba(0,0,0,.3);
 }
 
@@ -427,3 +427,4 @@ h3 {
   .portfolio-cta { margin-top:72px; }
   .services ul { grid-template-columns:1fr; }
 }
+
